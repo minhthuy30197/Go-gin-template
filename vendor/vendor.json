@@ -15,6 +15,18 @@
 			"revisionTime": "2017-08-10T14:37:23Z"
 		},
 		{
+			"checksumSHA1": "KmjnydoAbofMieIWm+it5OWERaM=",
+			"path": "github.com/alecthomas/template",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"revisionTime": "2016-04-05T07:15:01Z"
+		},
+		{
+			"checksumSHA1": "3wt0pTXXeS+S93unwhGoLIyGX/Q=",
+			"path": "github.com/alecthomas/template/parse",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"revisionTime": "2016-04-05T07:15:01Z"
+		},
+		{
 			"checksumSHA1": "5gnBrB9ISzgkQe5rLOlFp2MqA/8=",
 			"path": "github.com/asaskevich/govalidator",
 			"revision": "f9ffefc3facfbe0caee3fea233cbb6e8208f4541",
@@ -393,5 +405,5 @@
 			"revisionTime": "2018-09-27T16:02:31Z"
 		}
 	],
-	"rootPath": "github.com/minhthuy30197/gin-template"
+	"rootPath": "github.com/minhthuy30197/template"
 }

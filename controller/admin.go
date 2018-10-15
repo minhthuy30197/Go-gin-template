@@ -11,7 +11,7 @@ import (
 // @Description Lấy danh sách User
 // @Success 200 {string} string
 // @Failure 500 {object} model.HTTPError
-// @Router /auth/get-users [get]
+// @Router /test/get-users [get]
 func (c *Controller) GetUsers(ctx *gin.Context) {
 	ctx.String(http.StatusOK, "GetUsers")
 }
@@ -21,7 +21,7 @@ func (c *Controller) GetUsers(ctx *gin.Context) {
 // @Param user body model.CreateUser true "Thông tin tạo User"
 // @Success 200 {string} string
 // @Failure 500 {object} model.HTTPError
-// @Router /auth/create-user [post]
+// @Router /test/create-user [post]
 func (c *Controller) CreateUser(ctx *gin.Context) {
 }
 
@@ -30,7 +30,7 @@ func (c *Controller) CreateUser(ctx *gin.Context) {
 // @Success 200 {string} string
 // @Failure 404 {object} model.HTTPError
 // @Failure 500 {object} model.HTTPError
-// @Router /auth/get-user/{id} [get]
+// @Router /test/get-user/{id} [get]
 func (c *Controller) GetUserById(ctx *gin.Context) {
 }
 
@@ -39,7 +39,7 @@ func (c *Controller) GetUserById(ctx *gin.Context) {
 // @Success 200 {string} string
 // @Failure 404 {object} model.HTTPError
 // @Failure 500 {object} model.HTTPError
-// @Router /auth/update-user/{id} [put]
+// @Router /test/update-user/{id} [put]
 func (c *Controller) UpdateUserById(ctx *gin.Context) {
 }
 
@@ -48,7 +48,7 @@ func (c *Controller) UpdateUserById(ctx *gin.Context) {
 // @Success 200 {string} string
 // @Failure 404 {object} model.HTTPError
 // @Failure 500 {object} model.HTTPError
-// @Router /auth/delete-user/{id} [delete]
+// @Router /test/delete-user/{id} [delete]
 func (c *Controller) DeleteUserById(ctx *gin.Context) {
 	ctx.String(http.StatusOK, "DeleteUserById")
 }

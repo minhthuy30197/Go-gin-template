@@ -40,7 +40,7 @@ info:
   title: '{{.Title}}'
   version: '{{.Version}}'
 paths:
-  /auth/create-user:
+  /test/create-user:
     post:
       description: Tạo User
       parameters:
@@ -63,7 +63,7 @@ paths:
             type: object
       tags:
       - admin
-  /auth/delete-user/{id}:
+  /test/delete-user/{id}:
     delete:
       description: Xóa User theo ID
       responses:
@@ -83,7 +83,7 @@ paths:
             type: object
       tags:
       - admin
-  /auth/get-user/{id}:
+  /test/get-user/{id}:
     get:
       description: Lấy thông tin User theo ID
       responses:
@@ -103,7 +103,7 @@ paths:
             type: object
       tags:
       - admin
-  /auth/get-users:
+  /test/get-users:
     get:
       description: Lấy danh sách User
       responses:
@@ -118,7 +118,7 @@ paths:
             type: object
       tags:
       - admin
-  /auth/update-user/{id}:
+  /test/update-user/{id}:
     put:
       description: Cập nhật User theo ID
       responses:

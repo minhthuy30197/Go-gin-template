@@ -10,7 +10,7 @@
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/auth/create-user": {
+        "/test/create-user": {
             "post": {
                 "description": "Tạo User",
                 "tags": [
@@ -45,7 +45,7 @@
                 }
             }
         },
-        "/auth/delete-user/{id}": {
+        "/test/delete-user/{id}": {
             "delete": {
                 "description": "Xóa User theo ID",
                 "tags": [
@@ -75,7 +75,7 @@
                 }
             }
         },
-        "/auth/get-user/{id}": {
+        "/test/get-user/{id}": {
             "get": {
                 "description": "Lấy thông tin User theo ID",
                 "tags": [
@@ -105,7 +105,7 @@
                 }
             }
         },
-        "/auth/get-users": {
+        "/test/get-users": {
             "get": {
                 "description": "Lấy danh sách User",
                 "tags": [
@@ -128,7 +128,7 @@
                 }
             }
         },
-        "/auth/update-user/{id}": {
+        "/test/update-user/{id}": {
             "put": {
                 "description": "Cập nhật User theo ID",
                 "tags": [
